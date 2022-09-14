@@ -1,0 +1,53 @@
+.navHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  top: 0;
+  z-index: 10;
+  backdrop-filter: blur(10px);
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0px 40px;
+}
+
+li a {
+  margin: 0px 45px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-family: Courgette;
+  background: #85327b;
+  background: linear-gradient(to top left, #85327b 0%, #d289ca 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.3s;
+  opacity: 0.8;
+}
+
+li a:hover {
+  opacity: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: Courgette;
+}
+
+.name {
+  background: #85327b;
+  background: linear-gradient(to top left, #85327b 0%, #d289ca 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: larger;
+  font-weight: 900;
+}
