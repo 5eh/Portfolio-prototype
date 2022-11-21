@@ -5,7 +5,7 @@ import navbarstyles from "./navbarstyles.css";
 
 const Navbar = () => {
   return (
-    <div className="navHeader">
+    <div className="navHeader ">
       <h1>
         <span className="name"> 5eh </span> the builder
       </h1>

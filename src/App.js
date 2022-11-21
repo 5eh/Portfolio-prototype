@@ -8,7 +8,6 @@ function App() {
  
        <Navbar />
     <div>
-      <p>Insert ```js Quote from Frank here</p>
       <p>Insert Render from here</p>
       
       
@@ -16,6 +15,12 @@ function App() {
       <h1 className='header fontBold'>Watson Lewis-Rodriguez</h1>
         <h1 className='headerTail'>Entrepreneur | Developer | ETF Swing Trader | 'Alleged Photographer'</h1>
       </div> 
+
+      <div>
+        <div>
+          <p>let watson: human = new Networker({'rating: &quot;a++&quot;'}) watson.networking.execute()</p>
+        </div>
+      </div>
 
       <h2 className='italic sectionUnderline'><span className='boldSection'>###</span> Hello world</h2>
       <p><tab></tab>I'm Watson, a self-proclaimed entrepreneur looking to build in Web3 through React, and this is my journey getting started!</p>
