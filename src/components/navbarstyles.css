@@ -11,10 +11,21 @@
   backdrop-filter: blur(10px);
 }
 
+#navbarhr {
+  position: absolute;
+  top: 13%;
+  left: 0;
+  right: 0;
+  border: 1px solid #66635b;
+  width: 100%;
+}
+
 ul {
   list-style-type: none;
   display: flex;
   padding: 0px 40px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 li a {
@@ -23,31 +34,55 @@ li a {
   text-decoration: none;
   font-size: 1.25rem;
   font-family: Courgette;
-  background: #85327b;
-  background: linear-gradient(to top left, #85327b 0%, #d289ca 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transition: 0.3s;
-  opacity: 0.8;
 }
 
-li a:hover {
-  opacity: 1;
+.projects:hover,
+.blogs:hover,
+.github:hover {
+  color: #4c5760;
 }
 
 a {
   text-decoration: none;
 }
 
-h1 {
-  font-family: Courgette;
+.name {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 86px;
+  letter-spacing: -0.045em;
+
+  color: #4c5760;
 }
 
-.name {
-  background: #85327b;
-  background: linear-gradient(to top left, #85327b 0%, #d289ca 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: larger;
-  font-weight: 900;
+.projects {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  transition: color 0.6s ease-in-out;
+  color: #66635b;
+}
+
+.blogs {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  transition: color 0.6s ease-in-out;
+  color: #66635b;
+}
+
+.github {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  transition: color 0.6s ease-in-out;
+  color: #66635b;
 }

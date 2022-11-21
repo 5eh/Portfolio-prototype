@@ -1,103 +1,18 @@
 html {
   margin: 0;
   padding: 0;
+  font-family: Bebas Neue;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   margin-left: 35%;
   margin-right: 35%;
-  background-color: #151513;
+  background-color: #313131;
   font-size: 15px;
   padding-top: 15%;
   animation: fadeIn 2s;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
-.headerGroup {
-  text-align: center;
-}
-
-.header {
-  background: #85327b;
-  background: linear-gradient(to top left, #85327b 0%, #d289ca 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.headerTail {
-  margin-bottom: 15px;
-  margin-top: -2em;
-  font-size: medium;
-  color: #eeb7e8;
-}
-
-h1,
-p,
-h2,
-h3,
-h4,
-h5,
-a,
-h6 {
-  font-family: Kanit;
-  color: #e6ead7;
-}
-
-.fontBold {
-  font-family: "Bebas Neue", cursive;
-  letter-spacing: 0.15em;
-  font-size: 3rem;
-}
-
-p {
-  position: relative;
-  margin-left: 2em;
-  margin-right: 2em;
-}
-
-.boldSection {
-  font-family: "Bebas Neue";
-  letter-spacing: 0.05em;
-  font-weight: 100;
-}
-
-.fontLight {
-  font-family: "Bebas Neue", cursive;
-  letter-spacing: 0.15em;
-  font-size: 3rem;
-}
-
-.fontText {
-  font-family: "Bebas Neue", cursive;
-  letter-spacing: 0.15em;
-  font-size: 3rem;
-}
-
-.italic {
-  font-style: italic;
-}
-
-.socialButton {
-  color: #eeb7e899;
-  text-decoration: none;
-}
-
-button:hover {
-  background-color: #eeb7e899;
-  text-decoration: underline;
-  text-decoration-color: white;
-  text-decoration-thickness: 1.5px;
-}
-
-button {
-  background-color: #151513;
-  border: none;
-  border-radius: 3px;
-  padding: 8px 6px 8px 6px;
-  text-align: center;
 }
 
 @keyframes fadeIn {
@@ -109,6 +24,14 @@ button {
   }
 }
 
-.sectionUnderline {
-  text-decoration: underline;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #ffffff;
 }

@@ -1,38 +1,121 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.nametag {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-size: 15px;
+  width: 100%;
+  line-height: 55px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Myname {
+  border-image: linear-gradient(to right, #66635b, #a59e8c) 1;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  background-color: #343434;
+
+  font-weight: 200;
+  text-align: center;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.nametagsubheading {
+  font-family: "IBM Plex Mono";
+
+  color: white;
+  font-weight: 200;
+  margin-top: 5px;
+}
+.quotetag {
+  position: absolute;
+  border: 1px solid;
+  border-color: #4c5760;
+  border-radius: 3px;
+  border-width: 1px;
+  margin-top: 1%;
+  border-style: solid;
+  text-align: center;
+  background-color: #343434;
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-size: 15px;
+  width: 50%;
+  left: 25%;
+  right: 25%;
+  line-height: 55px;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.margintop {
+  margin-top: 15%;
+}
+
+.header {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 55px;
+  text-decoration-line: underline;
+  color: #ffffff;
+}
+
+.paragraph {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 31px;
+  letter-spacing: 0.055em;
+
+  color: #ffffff;
+}
+
+.container {
+  border: 1px solid;
+  border-color: #4c5760;
+  border-radius: 3px;
+  padding: 30px 20px;
+}
+
+.socialmedia {
+  display: flex;
+  justify-content: space-around;
+  gap: 2%;
+}
+.socialButton {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 55px;
+  letter-spacing: -0.055em;
+  width: 33%;
+}
+
+button {
+  background-color: transparent;
+  border-radius: 3px;
+  border: 2px solid #4c5760;
+}
+.discord {
+  background: linear-gradient(90deg, #93a8ac 0%, #758f95 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.linkedin {
+  background: linear-gradient(90deg, #93a8ac 0%, #758f95 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.medium {
+  background: linear-gradient(90deg, #93a8ac 0%, #758f95 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
