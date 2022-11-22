@@ -37,7 +37,10 @@ function App() {
       </div>
         <h2 className='header'>Socials</h2>
       <div className='socialmedia'>
+
+
       <button className='discordbox'><a href='#' target='_blank' className='socialButton discord '>Discord</a></button>
+        
       <button className='linkedinbox'><a href='#works' target='_blank' className='socialButton linkedin '>LinkedIn</a></button>
       <button className='mediumbox'><a href='#' target='_blank' className='socialButton medium '>Medium</a></button>
       </div>

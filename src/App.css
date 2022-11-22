@@ -80,8 +80,9 @@
 }
 
 .socialmedia {
-  display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 2%;
 }
 .socialButton {
@@ -91,7 +92,19 @@
   font-size: 42px;
   line-height: 55px;
   letter-spacing: -0.055em;
-  width: 33%;
+  padding: 3px;
+}
+
+.socialmedia {
+  background-color: transparent;
+  transition: background-color 0.6s ease-in-out;
+}
+
+.discordbox:hover,
+.linkedinbox:hover,
+.mediumbox:hover,
+.socialButton:hover {
+  background-color: #ffffff0c;
 }
 
 button {
@@ -99,11 +112,13 @@ button {
   border-radius: 3px;
   border: 2px solid #4c5760;
 }
+
 .discord {
-  background: linear-gradient(90deg, #93a8ac 0%, #758f95 100%);
+  background: linear-gradient(90deg, #4c5760 0%, #93a8ac 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  font-size: medium;
 }
 
 .linkedin {
@@ -111,11 +126,14 @@ button {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  font-size: medium;
 }
 
 .medium {
-  background: linear-gradient(90deg, #93a8ac 0%, #758f95 100%);
+  background: linear-gradient(90deg, #4c5760 0%, #93a8ac 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  font-size: medium;
+  text-align: center;
 }
